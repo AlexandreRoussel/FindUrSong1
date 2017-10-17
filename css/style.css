@@ -11,13 +11,11 @@
     justify-content: center;
     margin: 10px;
 }
-
 .image {
      z-index: 2;
     display: flex;
     justify-content: center; 
 }
-
 .filtres {
     z-index: 2;
    display: flex;
@@ -25,13 +23,7 @@
     align-items: flex-end;
     margin-top: 35px;
 }
-
-canvas {
-    position: absolute; z-index: 1;
-    top: 0;
-  display: block;
-  width: 100vw;
-  height: 150vh;
-  cursor: pointer;
-   
-
+.myheader{
+    background: rgba(0,0,0,.7) url(https://i.ytimg.com/vi/TVFqxCaQTfw/maxresdefault.jpg);
+    background-position: center;
+}

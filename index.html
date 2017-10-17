@@ -9,16 +9,16 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
   <link rel="stylesheet" href="font-awesome-4.6.3/css/font-awesome.min.css">
   <link rel="stylesheet" type=text/css href="css/style.css">
+  <link rel="stylesheet" type=text/css href="css/stylebtn.css">
   <script src="js/angular.min.js"></script>
   <script src="js/jquery-3.2.1.min.js"></script>
   <script src="js/script.js"></script>
-  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script> 
   <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/1.0.0/anime.min.js'></script>
 </head>
 <body>
 <!-- header -->
-<div class="container">
-    <div class="row">
+<div class="container-fluid">
+    <div class="row myheader">
         <div class="col-sm-4 image">
             <img src="images/LOGO.svg" alt="Logo" title="Accueil" id="logo"/> 
         </div>
@@ -27,8 +27,10 @@
                 <a class="navbar-brand" href="#"></a>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <form class="form-inline my-2 my-lg-0">
-                        <input class="form-control mr-sm-2" type="text" placeholder="Rechercher">
-                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Rechercher</button>
+                        <input class="form-control mr-sm-2" type="text" placeholder="Artiste, Titre, hashtag">
+                        <div class="round">
+		                    <a class="button" href="#">Rechercher</a>
+                        </div>
                     </form>
                 </div>
             </nav>
@@ -52,13 +54,8 @@
             <iframe src="https://open.spotify.com/embed?uri=https://open.spotify.com/track/28mVDii7s9YQ5Cm8UJmcPT" width="600" height="280" frameborder="0" allowtransparency="true"></iframe>
         </div>
     </div>
-</div> 
-<canvas id="c"></canvas>
-
-    
+</div>    
 <!-- /body -->
-
-    <script  src="js/index.js"></script>
 </body>
 
 </html>
