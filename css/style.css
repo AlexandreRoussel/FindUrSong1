@@ -5,6 +5,10 @@
     align-items: flex-start;
     margin-top: 35px;
 }
+
+body {
+    background-color: #fff;
+}
 .bloc1 {
     z-index: 2;
     display: flex;

@@ -11,8 +11,8 @@
   <link rel="stylesheet" type=text/css href="css/style.css">
   <link rel="stylesheet" type=text/css href="css/stylebtn.css">
   <script src="js/angular.min.js"></script>
-  <script src="js/jquery-3.2.1.min.js"></script>
-  <script src="js/script.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/j-query-tmpl.js"></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/animejs/1.0.0/anime.min.js'></script>
 </head>
 <body>
@@ -40,7 +40,7 @@
         </div>
     </div>
     <!-- /header -->
-    <!-- body -->
+    <!-- body --> <!--
     <div class="row">
         <div class="col-sm-12 bloc1">
             <iframe src="https://open.spotify.com/embed?uri=https://open.spotify.com/track/1dxMG5Rk8lE9kjMI6okEzb" width="600" height="280" frameborder="0" allowtransparency="true"></iframe>
@@ -53,8 +53,16 @@
         <div class="col-sm-12 bloc1">
             <iframe src="https://open.spotify.com/embed?uri=https://open.spotify.com/track/28mVDii7s9YQ5Cm8UJmcPT" width="600" height="280" frameborder="0" allowtransparency="true"></iframe>
         </div>
-    </div>
-</div>    
+    </div> -->
+</div>
+<ul id="placeholder"></ul>
+<script id="template" type="text/x-jquery-tmpl">
+    <li>
+        <h2>${fields["title"]}</h2>
+    </li>
+</script>
+
+  <script src="js/script.js"></script>
 <!-- /body -->
 </body>
 
