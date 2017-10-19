@@ -18,7 +18,8 @@ body {
 .image {
      z-index: 2;
     display: flex;
-    justify-content: center; 
+    align-items: flex-start;
+    justify-content: flex-start; 
 }
 .filtres {
     z-index: 2;
@@ -33,24 +34,30 @@ body {
 }
 
 .myartist{
+    text-align: center;
     color: darkred;
+    font-size: 24px;
 }
 
 .mytitle{
+    text-align: center;
     color: darkred;
-    font-size: 20px;
+    font-size: 18px;
     font-family: sans-serif;
 }
 
 .myalbum{
+    text-align: center;
     margin: auto;
     color: darkred;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .myimg{
-    width: 220px;
-    height: 220px;
+    align-content: flex-end;
+    justify-content: flex-end;
+    width: 150px;
+    height: 150px;
 }
 
 

@@ -20,7 +20,7 @@
 <div class="container-fluid">
     <div class="row myheader">
         <div class="col-sm-4 image">
-            <img src="images/LOGO.svg" alt="Logo" title="Accueil" id="logo"/> 
+            <img src="images/LOGONOIR.png" alt="Logo" title="Accueil" id="logo"/> 
         </div>
         <div class="col-sm-4">
             <nav class="navbar navbar-toggleable-md navbar-light bg-faded barre">
@@ -59,13 +59,20 @@
 <div id="placeholder"></div>
 <script id="template" type="text/x-jquery-tmpl">
 <div class="col-sm-4">
-    <div class="myinfos">
-        <h2 class="myartist">Artist: ${fields["artist"]}</h2>
-        <h2 class="mytitle">Titre: ${fields["title"]}</h2>
-        <h3 class="myalbum">Album: ${fields["album"]}</h3>
-        <img class="myimg" src="${fields["cover"]}">
+    <div class="row">
+        <div class="myinfos">
+            <div class="col-sm-6">
+                <h2 class="myartist"> ${fields["artist"]}</h2>
+                <h2 class="mytitle"> ${fields["title"]}</h2>
+                <h3 class="myalbum">From the album:<br> ${fields["album"]}</h3>
+            </div>
+            <div class="col-sm-6">
+            <br>
+                <img class="myimg" src="${fields["cover"]}">
+            </div>
+        </div>
     </div>
-    </div>
+</div>
 </script>
 
   <script src="js/script.js"></script>
