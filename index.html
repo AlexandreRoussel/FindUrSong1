@@ -58,8 +58,13 @@
 </div>
 <div id="placeholder"></div>
 <script id="template" type="text/x-jquery-tmpl">
+<div class="col-sm-4">
     <div class="myinfos">
-        <h2 class="mytitle">${fields["title"]}</h2>
+        <h2 class="myartist">Artist: ${fields["artist"]}</h2>
+        <h2 class="mytitle">Titre: ${fields["title"]}</h2>
+        <h3 class="myalbum">Album: ${fields["album"]}</h3>
+        <img class="myimg" src="${fields["cover"]}">
+    </div>
     </div>
 </script>
 

@@ -31,3 +31,29 @@ body {
     background: rgba(0,0,0,.7) url(https://i.ytimg.com/vi/TVFqxCaQTfw/maxresdefault.jpg);
     background-position: center;
 }
+
+.myartist{
+    color: darkred;
+}
+
+.mytitle{
+    color: darkred;
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+.myalbum{
+    margin: auto;
+    color: darkred;
+    font-size: 20px;
+}
+
+.myimg{
+    width: 220px;
+    height: 220px;
+}
+
+
+body{
+    background-color: black;
+}
